@@ -78,6 +78,11 @@ public class Resolve
         return props;
     }
 
+    protected List<ArtifactConsumer> getConsumers()
+    {
+        return consumers;
+    }
+
     private void validate()
     {
         for ( ArtifactConsumer consumer : consumers )
