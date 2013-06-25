@@ -41,7 +41,7 @@ public class AntTransferListener
     {
         String msg = event.getRequestType() == TransferEvent.RequestType.PUT ? "Uploading" : "Downloading";
         msg += " " + event.getResource().getRepositoryUrl() + event.getResource().getResourceName();
-        task.log( msg );
+        task.log( msg, Project.MSG_VERBOSE );
     }
 
     @Override

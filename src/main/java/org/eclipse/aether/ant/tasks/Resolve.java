@@ -144,7 +144,7 @@ public class Resolve
             group.createRequests( root );
         }
 
-        log( "Resolving artifacts", Project.MSG_INFO );
+        log( "Resolving artifacts", Project.MSG_VERBOSE );
 
         for ( Group group : groups.values() )
         {
