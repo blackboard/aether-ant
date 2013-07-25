@@ -508,6 +508,8 @@
               <createDependencyReducedPom>false</createDependencyReducedPom>
               <shadedArtifactAttached>true</shadedArtifactAttached>
               <shadedClassifierName>uber</shadedClassifierName>
+              <createSourcesJar>true</createSourcesJar>
+              <shadeSourcesContent>true</shadeSourcesContent>
               <filters>
                 <filter>
                   <artifact>org.eclipse.sisu:org.eclipse.sisu.plexus</artifact>
