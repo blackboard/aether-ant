@@ -77,13 +77,10 @@
 
   <distributionManagement>
     <repository>
-      <id>sonatype-nexus-staging</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>thirdparty</id>
+      <name>Nexus Thirdparty Repository</name>
+      <url>http://maven.pd.local/content/repositories/thirdparty</url>
     </repository>
-    <snapshotRepository>
-      <id>${sonatypeOssDistMgmtSnapshotsId}</id>
-      <url>${sonatypeOssDistMgmtSnapshotsUrl}</url>
-    </snapshotRepository>
   </distributionManagement>
 
   <licenses>
@@ -93,14 +90,6 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-
-  <distributionManagement>
-    <repository>
-      <id>thirdparty</id>
-      <name>Nexus Thirdparty Repository</name>
-      <url>http://maven.pd.local/content/repositories/thirdparty</url>
-    </repository>
-  </distributionManagement>
 
   <developers>
     <developer>
