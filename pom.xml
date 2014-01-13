@@ -16,7 +16,7 @@
 
   <groupId>blackboard</groupId>
   <artifactId>aether-ant-tasks</artifactId>
-  <version>0.9.0-2</version>
+  <version>0.9.0-3</version>
 
   <name>Aether Ant Tasks</name>
   <description>
